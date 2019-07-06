@@ -1,5 +1,10 @@
 {
   "private": true,
+  "scripts": {
+    "start": "yarn workspace demo start",
+    "clear:demo": "yarn workspace demo clean",
+    "clear:theme": "yarn workspace theme clean",
+  },
   "workspaces": [
     "theme",
     "demo"
