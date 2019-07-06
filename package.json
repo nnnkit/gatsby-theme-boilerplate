@@ -2,8 +2,8 @@
   "private": true,
   "scripts": {
     "start": "yarn workspace demo start",
-    "clear:demo": "yarn workspace demo clean",
-    "clear:theme": "yarn workspace theme clean",
+    "clean:demo": "yarn workspace demo clean",
+    "clean:theme": "yarn workspace gatsby-theme-lumen clean"
   },
   "workspaces": [
     "theme",
